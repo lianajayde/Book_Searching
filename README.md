@@ -10,6 +10,14 @@ Each book will have a small description with what the book is about and if there
 -npm i<br>
 -npm install apollo-server-express@2.15.0<br>
 
+## Technologies Used
+-JavaScript<br>
+-Node.js<br>
+-React<br>
+-Express.js<br>
+-Apollo Server<br>
+-GraphQL<br>
+-MONGODB
 
 ## Demo
-<a href="">Deployed App Link Here</a>
+<a href="https://git.heroku.com/booksearching.git">Deployed App Link Here</a>
