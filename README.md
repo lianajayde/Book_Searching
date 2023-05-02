@@ -6,6 +6,8 @@ I also modified the exisiting middleware so that it will work in the context of 
 Book Searching allows you to search any book you would like, and save the book with the books information to your account.<br>
 Each book will have a small description with what the book is about and if there are movies based on the book.
 ## Installation
+<br>
+-npm i<br>
 -npm install apollo-server-express@2.15.0<br>
 
 
