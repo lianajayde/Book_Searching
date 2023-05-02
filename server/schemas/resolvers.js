@@ -23,9 +23,9 @@ const resolvers = {
                 throw new AuthenticationError('Wrong info');
             }
 
-            const correctPass = await user.isCorrectPassword(password);
+            const correctPw = await user.isCorrectPassword(password);
 
-            if (!correctPass) {
+            if (!correctPw) {
                 throw new AuthenticationError('Wrong info');
             }
 
