@@ -32,6 +32,7 @@ const resolvers = {
             const token = signToken(user);
             return { token, user };
         },
+
         addUser: async (parent, { username, email, password }) => {
             const user = await User.create({ username, email, password });
             const token = signToken(user);
@@ -49,6 +50,7 @@ const resolvers = {
             }
             throw new AuthenticationError('You may log in');
         },
+        
         removeBook: async (parent, { bookId }, context) => {
             if (context.user) {
                 const updatedUser = await User.findOneAndUpdate(
